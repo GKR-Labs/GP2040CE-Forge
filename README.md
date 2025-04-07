@@ -5,6 +5,12 @@ A container to simplify the compilation of [GP2040-CE](https://gp2040-ce.info) o
 
 ## Getting the image
 
+### Pulling from a container registry
+
+```bash
+docker pull gkr-labs/gp2040ce-forge
+```
+
 ### Building from source
 
 ```bash
@@ -12,6 +18,7 @@ git clone https://github.com/GKR-Labs/GP2040CE-forge.git
 cd GP2040CE-forge
 docker build --tag gkr-labs/gp2040ce-forge .
 ```
+
 
 ## Running
 
